@@ -1,0 +1,33 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sidebar.open {
+    left: 0;
+    
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    color: #fff;
+  }
+  
+  button#toggleBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
